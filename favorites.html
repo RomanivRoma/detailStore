@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
+
+	<link rel="stylesheet" href="https://static.fontawesome.com/css/fontawesome-app.css">
+
+    <title>Car Store - Favorites</title>
+</head>
+<body class="favorite-page">
+    <div id="popup1" class="overlay">
+        <div class="popup">
+            <a class="close" href="">&times;</a>
+            <div class="content container">
+                <h1>Вход</h1>
+                <input type="email" placeholder="Логин или e-mail">
+                <input type="password" placeholder="Пароль"><br>
+                <button>Войти</button>
+                <p>или</p>
+                <button>Создать аккаунт</button>
+            </div>
+        </div>
+    </div>
+    <header>
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-md-2 col-sm-4 col-4 logo-block"><a href="./index.html" class="logo">LOGO</a></div>
+                <div class="col-md-4 col-sm-12 search">
+                    <input type="text" placeholder="Поиск по каталогу"><button class="search-button"><i class="fal fa-search"></i></button>
+                </div>
+                <div class="col-md-6 col-sm-8 col-8 links">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-4 col-4 link"><a href="./favorites.html"><i class="fal fa-heart"></i><span>Избранное</span> </a></div>
+                        <div class="col-md-4 col-sm-4 col-4 link"><a href="./cart.html"><i class="fas fa-shopping-cart"></i><span>Корзина</span> </a></div>
+                        <div class="col-md-3 col-sm-4 col-4 link"><a href="#popup1"><i class="fal fa-user-circle" aria-hidden="true"></i><span>Вход</span> </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <section class="favorite-list">
+        <div class="container-lg">
+            <h1 class="page-name">Избранное</h1>
+            <div class="row products-block">
+                <div class="col-md-4 col-sm-6 box">
+                    <div class="product-item">
+                        <button class="close"><i class="fal fa-times"></i></button>
+                        <img src="./src/detail8.jpg" alt="Detail1">
+                        <p class="name">Диффузор радиатора</p>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p class="price">2822₴</p>
+                            </div>
+                            <div class="col-md-7">
+                                <button>Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 box">
+                    <div class="product-item">
+                    <button class="close"><i class="fal fa-times"></i></button>
+                        <img src="./src/detail6.jpg" alt="Detail1">
+                        <p class="name">Амортизатор подвески</p>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p class="price">1548₴</p>
+                            </div>
+                            <div class="col-md-7">
+                                <button>Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 box">
+                    <div class="product-item">
+                    <button class="close"><i class="fal fa-times"></i></button>
+                        <img src="./src/detail3.jpg" alt="Detail1">
+                        <p class="name">Тарелка пружины подвески</p>
+                        <div class="row">
+                            <div class="col-md-5">
+                                <p class="price">260₴</p>
+                            </div>
+                            <div class="col-md-7">
+                                <button>Купить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <section class="sum">
+        <div class="container-lg">
+            <div class="sum-block">
+                <h2>Товар на сумму:</h2>
+                <p class="num">4630 ₴</p>
+            </div>
+            <div class="button-wrap">
+                <button class="button-reg">Купить все</button>
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 row">
+                    <div class="col-md-6"><p>Время работы 9:00 - 22:00</p></div>
+                    <div class="col-md-6"><a href="tel:+380671749228">+380 67 174 9228</a></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
